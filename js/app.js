@@ -81,7 +81,7 @@ function addItemtoCart(title, price, imageSrc) {
       <li class="list-group-item d-flex justify-content-between lh-condensed">
         <div>
           <img class="cart-item-image" src="${imageSrc}" type="image" name="item" width= "100" height= "100">
-          <h6 class="my-0">${title}</h6>
+          <h6 class="my-0" type="text" name="item">${title}</h6>
           <br>
           
             <input class="cart-quantity-input" name="quantity" type="number" value="1">
@@ -111,7 +111,7 @@ function updateCartTotal() {
             total = total + (price * quantity)
         }
         total = Math.round(total * 100) / 100
-        document.getElementsByClassName("cart-total-price")[0].innerText = "$" + total + " "
+        document.getElementsByClassName("cart-total-price",`type="text" name="item"`)[0].innerText = "$" + total + " "
 }
 
 }
