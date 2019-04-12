@@ -47,7 +47,7 @@ html, h1, h2, h3, h4, h5, p  {
 }
 .greeting {
     text-align: center;
-    color: rgb(177, 155, 30) !important;
+    color: rgb(207, 178, 11) !important;
     margin-top: 2em;
     font-size: 20pt;
 }
@@ -288,14 +288,19 @@ html, h1, h2, h3, h4, h5, p  {
     }
     .greeting {
         text-align: center;
-        color: rgb(177, 155, 30) !important;
-        margin-top: 2em;
+        color: rgb(207, 178, 11) !important;
+        margin-top: 50px;
         font-size: 30pt;
     }
     #logo {
         width: 35%;
         margin-left: 10px;
         margin-right: 8.5em;
+    }
+    .carousel-inner {
+        width: 100% !important;
+        height: 50% !important;
+        margin-top: 2em;
     }
   }
   
