@@ -1,7 +1,7 @@
 $(function () {
     'use strict';
 
-    $('#contact-form').validator();
+    $('#contact-form', '#checkout-form').validator();
 
 
     // when the form is submitted
@@ -30,9 +30,9 @@ $(function () {
                     // If we have messageAlert and messageText
                     if (messageAlert && messageText) {
                         // inject the alert to .messages div in our form
-                        $('#contact-form').find('.messages').html(alertBox);
+                        $('#contact-form', '#checkout-form').find('.messages', '.messages-two').html(alertBox);
                         // empty the form
-                        $('#contact-form')[0].reset();
+                        $('#contact-form', '#checkout-form')[0].reset();
                     }
                 }
             });
