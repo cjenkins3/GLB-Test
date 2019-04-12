@@ -292,5 +292,10 @@ html, h1, h2, h3, h4, h5, p  {
         margin-top: 2em;
         font-size: 30pt;
     }
+    #logo {
+        width: 35%;
+        margin-left: 10px;
+        margin-right: 8.5em;
+    }
   }
   
