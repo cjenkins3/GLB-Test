@@ -47,7 +47,7 @@ html, h1, h2, h3, h4, h5, p {
 }
 .greeting {
     text-align: center;
-    color: rgb(177, 155, 30);
+    color: rgb(177, 155, 30) !important;
     margin-top: 3%;
 }
 
@@ -284,6 +284,11 @@ html, h1, h2, h3, h4, h5, p {
         box-shadow: 0 20px 40px rgba(0,0,0,.2);
         text-align: center;
         margin-bottom: 6%;
+    }
+    .greeting {
+        text-align: center;
+        color: rgb(177, 155, 30) !important;
+        margin-top: 3%;
     }
   }
   
