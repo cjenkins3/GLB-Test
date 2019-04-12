@@ -84,7 +84,7 @@ function addItemtoCart(title, price, imageSrc) {
           <h6 class="my-0">${title}</h6>
           <br>
           
-            <input class="cart-quantity-input" type="number" value="1">
+            <input class="cart-quantity-input" name="quantity" type="number" value="1">
             <hr>
             <button class="btn btn-danger" type="button">REMOVE</button>
           

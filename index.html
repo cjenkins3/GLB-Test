@@ -636,7 +636,7 @@
       <span class="text-muted" style ="margin-left: 8em;">Your cart</span>
     </h4>
     <div class="cart-row" >
-    <div class="cart-items"name="order" required>
+    <div class="cart-items" input type="image" name="order" required>
     <ul class="list-group mb-3">
       <!-- <li class="list-group-item d-flex justify-content-between lh-condensed">
         <div>
@@ -644,7 +644,7 @@
           <h6 class="my-0">AKA Hand Figurine</h6>
           <br>
           
-            <input class="cart-quantity-input" type="number" value="1">
+            <input class="cart-quantity-input" name="quantity" type="number" value="1">
             <hr>
             <button class="btn btn-danger" type="button">REMOVE</button>
           
@@ -654,7 +654,7 @@
 
       <li class="list-group-item d-flex justify-content-between" id="total">
         <span>Total (USD)</span>
-        <div class="cart-total-price" name="total" required>$0.00</div>
+        <div class="cart-total-price" input type="number" name="total" required>$0.00</div>
       </li>
     </ul>
     </div>
@@ -781,12 +781,12 @@
 
       <div class="d-block my-3">
         <div class="custom-control custom-radio">
-          <input id="credit" type="radio" name="CashApp" class="custom-control-input" checked required>
+          <input id="credit" type="radio" name="paymentMethod" class="custom-control-input">
           <label class="custom-control-label" for="credit">$CashApp</label>
         </div>
         
         <div class="custom-control custom-radio">
-          <input id="paypal" type="radio" name="Paypal" class="custom-control-input" required>
+          <input id="paypal" type="radio" name="paymentMethod" class="custom-control-input" >
           <label class="custom-control-label" for="paypal">PayPal</label>
         </div>
       </div>
