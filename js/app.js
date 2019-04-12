@@ -80,7 +80,7 @@ function addItemtoCart(title, price, imageSrc) {
     <ul class="list-group mb-3">
       <li class="list-group-item d-flex justify-content-between lh-condensed">
         <div>
-          <img class="cart-item-image" src="${imageSrc}" input type="image" name="item" width= "100" height= "100">
+          <img class="cart-item-image" src="${imageSrc}" width= "100" height= "100">
           <h6 class="my-0" input type="text" name="item">${title}</h6>
           <br>
           
