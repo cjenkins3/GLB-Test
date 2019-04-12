@@ -9,7 +9,7 @@ html, body {
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
-html, h1, h2, h3, h4, h5, p {
+html, h1, h2, h3, h4, h5, p  { 
     font-family: 'Bree Serif', serif;
 }
 #mainNavBar {
@@ -49,6 +49,7 @@ html, h1, h2, h3, h4, h5, p {
     text-align: center;
     color: rgb(177, 155, 30) !important;
     margin-top: 3%;
+    font-size: 20pt;
 }
 
 .carousel-inner {
@@ -257,7 +258,6 @@ html, h1, h2, h3, h4, h5, p {
     box-shadow: 0 20px 40px rgba(0,0,0,.2);
     padding: 5%;
     margin-bottom: 2%;
-    margin-top: 3%;
     width: 80%;
     margin-left: 2.5em;
     }
@@ -288,7 +288,8 @@ html, h1, h2, h3, h4, h5, p {
     .greeting {
         text-align: center;
         color: rgb(177, 155, 30) !important;
-        margin-top: 3%;
+        margin-top: 6%;
+        font-size: 15pt;
     }
   }
   
