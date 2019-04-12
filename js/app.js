@@ -1,3 +1,16 @@
+ // Ping your heroku, netlify or other projects
+ pingAll = (urls) => {
+    if(!urls || urls.length == 0)
+        return;
+
+    // urls.forEach(url=>http.get(url).on('error', err=> console.error(err)));
+    // OR
+    axios.all([
+        urls.map(url=>axios.get(url))
+    ])
+    .catch(console.error)
+}
+
 if (document.readyState == "loading") {
     document.addEventListener("DOMContentLoaded", ready)
 } else {
