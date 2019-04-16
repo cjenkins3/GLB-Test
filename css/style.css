@@ -90,7 +90,9 @@ html, h1, h2, h3, h4, h5, p  {
     background: rgb(22, 185, 71) !important;
     border-color: rgb(22, 185, 71) !important;
 }
-
+.modal-title {
+    margin-left: 7em;
+}
 
 /* --------Shop Page End --------- */
 
@@ -312,8 +314,8 @@ html, h1, h2, h3, h4, h5, p  {
         padding: 5%;
         margin-bottom: 2%;
         width: 80%;
-        margin-top: -3em;
-        margin-left: 8em;
+        margin-top: 3em;
+        margin-left: 2.5em;
         }
         #contact-form {
             box-shadow: 0 20px 40px rgba(0,0,0,.2);
@@ -321,7 +323,7 @@ html, h1, h2, h3, h4, h5, p  {
             margin-bottom: 3%;
             margin-top: 3%;
             width: 80%;
-            margin-left: 8em;
+            margin-left: 2.5em;
         }
         .policy-section {
             text-align: center;
@@ -330,63 +332,19 @@ html, h1, h2, h3, h4, h5, p  {
             margin-bottom: 3%;
             margin-top: 3%;
             width: 80%;
-            margin-left: 5em;
+            margin-left: 2.5em;
         }
         .card {
             top: 5%;
-            margin-left: 3.7em;
+            margin-left: -8em;
             box-shadow: 0 20px 40px rgba(0,0,0,.2);
             text-align: center;
             margin-bottom: 6%;
         }
-        .greeting {
-            text-align: center;
-            color: rgb(207, 178, 11) !important;
-            margin-top: 50px;
-            font-size: 30pt;
+        .modal-title {
+            margin-left: 3.5em;
         }
-        #logo {
-            width: 35%;
-            margin-left: 10px;
-            margin-right: 8.5em;
-        }
-        .carousel-inner {
-            width: 100% !important;
-            height: 50% !important;
-            margin-top: 2em;
-        }
-    #aboutUs {
-    box-shadow: 0 20px 40px rgba(0,0,0,.2);
-    padding: 5%;
-    margin-bottom: 2%;
-    width: 80%;
-    margin-top: -3em;
-    margin-left: 2.5em;
-    }
-    #contact-form {
-        box-shadow: 0 20px 40px rgba(0,0,0,.2);
-        padding: 5%;
-        margin-bottom: 3%;
-        margin-top: 3%;
-        width: 80%;
-        margin-left: 2.5em;
-    }
-    .policy-section {
-        text-align: center;
-        box-shadow: 0 20px 40px rgba(0,0,0,.2);
-        padding: 5%;
-        margin-bottom: 3%;
-        margin-top: 3%;
-        width: 80%;
-        margin-left: 2.5em;
-    }
-    .card {
-        top: 5%;
-        margin-left: 3.7em;
-        box-shadow: 0 20px 40px rgba(0,0,0,.2);
-        text-align: center;
-        margin-bottom: 6%;
-    }
+
     .greeting {
         text-align: center;
         color: rgb(207, 178, 11) !important;
@@ -430,7 +388,7 @@ html, h1, h2, h3, h4, h5, p  {
     }
 
     .text-muted {
-        margin-left: 3em !important;
+        margin-left: 9em !important;
     }
 
 } 
