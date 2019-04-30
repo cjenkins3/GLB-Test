@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 html, body {
     max-width: 100%;
@@ -47,14 +48,18 @@ html, h1, h2, h3, h4, h5, p  {
 }
 .greeting {
     text-align: center;
-    color: rgb(207, 178, 11) !important;
-    margin-top: 2em;
+    color: black !important;
+    margin-top: 3em;
     font-size: 20pt;
+}
+.heart-icon {
+    width: 4%;
+    height: 5%;
 }
 
 .carousel-inner {
-    width: 100% !important;
-    height: 50% !important;
+    width: 80% !important;
+    margin-left: 8.4em;
 }
 
 /* ------ Shop Page Starts -------- */
@@ -92,6 +97,9 @@ html, h1, h2, h3, h4, h5, p  {
 }
 .modal-title {
     margin-left: 7em;
+}
+#sizes {
+    cursor: pointer;
 }
 
 /* --------Shop Page End --------- */
@@ -262,7 +270,7 @@ html, h1, h2, h3, h4, h5, p  {
     padding: 5%;
     margin-bottom: 2%;
     width: 80%;
-    margin-top: -3em;
+    margin-top: 8em;
     margin-left: 2.5em;
     }
     #contact-form {
@@ -278,12 +286,12 @@ html, h1, h2, h3, h4, h5, p  {
         box-shadow: 0 20px 40px rgba(0,0,0,.2);
         padding: 5%;
         margin-bottom: 3%;
-        margin-top: 3%;
+        margin-top: 32%;
         width: 80%;
         margin-left: 2.5em;
     }
     .card {
-        top: 5%;
+        top: 24%;
         margin-left: 3.7em;
         box-shadow: 0 20px 40px rgba(0,0,0,.2);
         text-align: center;
@@ -291,19 +299,27 @@ html, h1, h2, h3, h4, h5, p  {
     }
     .greeting {
         text-align: center;
-        color: rgb(207, 178, 11) !important;
+        color: black !important;
         margin-top: 50px;
-        font-size: 30pt;
+        font-size: 25pt !important;
+        word-spacing: 0em;
+    }
+    .heart-icon {
+        width: 11%;
+        height: 5%;
     }
     #logo {
-        width: 35%;
-        margin-left: 10px;
+        width: 72%;
+        margin-left: 3.5em;
         margin-right: 8.5em;
+    }
+    .navbar-toggler {
+        margin-top: 10px;
     }
     .carousel-inner {
         width: 100% !important;
-        height: 50% !important;
-        margin-top: 2em;
+        margin-top: 11.5em;
+        margin-left: 0em;
     }
   }
 
@@ -314,7 +330,7 @@ html, h1, h2, h3, h4, h5, p  {
         padding: 5%;
         margin-bottom: 2%;
         width: 80%;
-        margin-top: 3em;
+        margin-top: 8em;
         margin-left: 2.5em;
         }
         #contact-form {
@@ -330,13 +346,13 @@ html, h1, h2, h3, h4, h5, p  {
             box-shadow: 0 20px 40px rgba(0,0,0,.2);
             padding: 5%;
             margin-bottom: 3%;
-            margin-top: 3%;
+            margin-top: 32%;
             width: 80%;
             margin-left: 2.5em;
         }
         .card {
-            top: 5%;
-            margin-left: -8em;
+            top: 24%;
+            margin-left: -7.7em;
             box-shadow: 0 20px 40px rgba(0,0,0,.2);
             text-align: center;
             margin-bottom: 6%;
@@ -347,19 +363,27 @@ html, h1, h2, h3, h4, h5, p  {
 
     .greeting {
         text-align: center;
-        color: rgb(207, 178, 11) !important;
+        color: black !important;
         margin-top: 50px;
-        font-size: 30pt;
+        font-size: 25pt !important;
+        word-spacing: 0em;
+    }
+    .heart-icon {
+        width: 11%;
+        height: 5%;
     }
     #logo {
-        width: 35%;
-        margin-left: 10px;
+        width: 72%;
+        margin-left: 3.5em;
         margin-right: 8.5em;
+    }
+    .navbar-toggler {
+        margin-top: 10px;
     }
     .carousel-inner {
         width: 100% !important;
-        height: 50% !important;
-        margin-top: 2em;
+        margin-top: 11.5em;
+        margin-left: 0em;
     }
     
     .card {
