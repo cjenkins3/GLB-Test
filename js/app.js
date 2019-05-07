@@ -55,13 +55,12 @@ function addToCartClicked(event) {
     var title = shopItem.getElementsByClassName("card-title")[0].innerText
     var price = shopItem.getElementsByClassName("card-item-price")[0].innerText
     var imageSrc = shopItem.getElementsByClassName("card-img-top")[0].src
-    var size = shopItem.getElementsByClassName("cart-item-size")[0].innerText.fontcolor("blue")
     console.log(title, price, imageSrc)
-    addItemtoCart(title, price, imageSrc, size)
+    addItemtoCart(title, price, imageSrc)
     updateCartTotal()
 }
 
-function addItemtoCart(title, price, imageSrc, size) {
+function addItemtoCart(title, price, imageSrc) {
     var cartRow = document.createElement("div")
     cartRow.classList.add("cart-items")
     cartRow.innerText = title
@@ -84,7 +83,6 @@ function addItemtoCart(title, price, imageSrc, size) {
           <h6 class="my-0" input type="text" name="item">${title}</h6>
           <br>
           
-          <p>${size}</p>
           
             <input class="cart-quantity-input" name="quantity" type="number" value="1"> 
             <hr>

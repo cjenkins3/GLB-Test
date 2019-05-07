@@ -14,7 +14,7 @@ html, h1, h2, h3, h4, h5, p  {
     font-family: 'Bree Serif', serif;
 }
 #mainNavBar {
-    background-color: rgb(167, 161, 161) !important;
+    background-color: rgb(133, 124, 51) !important;
 }
 #logo {
     width: 15%;
@@ -35,6 +35,7 @@ html, h1, h2, h3, h4, h5, p  {
 .nav-link:hover {
     color: rgb(73, 72, 72) !important;
 }
+
 
 #shopCart {
     margin-right: 3em;
@@ -76,8 +77,14 @@ html, h1, h2, h3, h4, h5, p  {
 #rowFour {
     margin-bottom: 5em;
 }
+.col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-left: 7em;
+}
 .card {
-    top: 10%;
+    top: 5%;
     margin-left:12em;
     box-shadow: 0 20px 40px rgba(0,0,0,.2);
     text-align: center;
@@ -95,11 +102,11 @@ html, h1, h2, h3, h4, h5, p  {
     background: rgb(22, 185, 71) !important;
     border-color: rgb(22, 185, 71) !important;
 }
+.btn-secondary {
+    margin: 1.5% !important;
+}
 .modal-title {
     margin-left: 7em;
-}
-#sizes {
-    cursor: pointer;
 }
 
 /* --------Shop Page End --------- */
