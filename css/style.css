@@ -299,10 +299,16 @@ html, h1, h2, h3, h4, h5, p  {
     }
     .card {
         top: 24%;
-        margin-left: 3.7em;
+        margin-left: -5em;
         box-shadow: 0 20px 40px rgba(0,0,0,.2);
         text-align: center;
         margin-bottom: 6%;
+    }
+    .col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+        margin-left: 0em;
     }
     .greeting {
         text-align: center;
@@ -363,6 +369,12 @@ html, h1, h2, h3, h4, h5, p  {
             box-shadow: 0 20px 40px rgba(0,0,0,.2);
             text-align: center;
             margin-bottom: 6%;
+        }
+        .col-md-3 {
+            -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+            max-width: 25%;
+            margin-left: 0em;
         }
         .modal-title {
             margin-left: 3.5em;
