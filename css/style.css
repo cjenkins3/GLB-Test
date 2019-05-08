@@ -14,7 +14,7 @@ html, h1, h2, h3, h4, h5, p  {
     font-family: 'Bree Serif', serif;
 }
 #mainNavBar {
-    background-color: rgb(138, 135, 115) !important;
+    background-color: rgb(226, 222, 186) !important;
 }
 #logo {
     width: 15%;
@@ -104,6 +104,10 @@ html, h1, h2, h3, h4, h5, p  {
 }
 .btn-secondary {
     margin: 1.5% !important;
+}
+.btn-secondary:focus {
+    background: rgb(60, 3, 87) !important;
+    border-color:  rgb(60, 3, 87) !important;
 }
 .modal-title {
     margin-left: 7em;
@@ -304,6 +308,10 @@ html, h1, h2, h3, h4, h5, p  {
         text-align: center;
         margin-bottom: 6%;
     }
+    .card-button:focus {
+        background: rgb(22, 185, 71) !important;
+        border-color: rgb(22, 185, 71) !important;
+    }
     .col-md-3 {
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
@@ -369,6 +377,10 @@ html, h1, h2, h3, h4, h5, p  {
             box-shadow: 0 20px 40px rgba(0,0,0,.2);
             text-align: center;
             margin-bottom: 6%;
+        }
+        .card-button:focus {
+            background: rgb(22, 185, 71) !important;
+            border-color: rgb(22, 185, 71) !important;
         }
         .col-md-3 {
             -ms-flex: 0 0 25%;
